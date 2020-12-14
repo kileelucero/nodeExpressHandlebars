@@ -1,9 +1,9 @@
 console.log('Hello');
-let express = require("express");
+let express = require('express');
+const app = express();
 
 let PORT = process.env.PORT || 8080;
 
-let app = express();
 
 app.use(express.static("public"));
 
