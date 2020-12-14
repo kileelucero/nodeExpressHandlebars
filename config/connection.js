@@ -9,7 +9,7 @@ if (process.env.JAWSDB_URL) {
     host: "localhost",
     port: 3306,
     user: "root",
-    password: "Luc#ro237",
+    password: "password",
     database: "burger_db"
   });
 };
@@ -20,6 +20,8 @@ connection.connect(function(err) {
     return;
   }
   console.log("connected as id " + connection.threadId);
+connection.query('SELECT * FROM burgers', function(err, result) {console.log(result)});
+
 });
 
 module.exports = connection;
