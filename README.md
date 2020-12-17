@@ -1,3 +1,5 @@
+![properBurgerz](/public/assets/properBurgerz.png)
+
 # nodeExpressHandlebars
 ![License: GNU General Public v3.0](https://img.shields.io/badge/License-GNU%20General%20Public%20v3.0-blue.svg)
 ## Description
